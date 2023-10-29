@@ -5,7 +5,6 @@ from matplotlib import pyplot as plt
 
 
 import open3d as o3d
-from draw_pcd_cam import LineMesh
 import cv2
 
 def align_vector_to_another(a=np.array([0, 0, 1]), b=np.array([1, 0, 0])):
